@@ -1,0 +1,20 @@
+{
+    "name": "Hacktoberfest",
+
+    "links": {
+        "Start Hacking": "https://hacktoberfest.com/auth/",
+        "Join The Hacktoberfest Discord": "https://discord.gg/hacktoberfest",
+        "How To Participate": "https://hacktoberfest.com/participation/",
+        "Learn About Non-Code Contribution": "https://hacktoberfest.com/about/#low-or-non-code",
+        "Hacktoberfest Kick-Off": "https://try.digitalocean.com/hacktoberfest22-kick-off/",
+        "Hacktoberfest Hack Party Asia Pacific Edition": "https://try.digitalocean.com/hacktoberfest22-hack-party-apac/",
+        "See All Events": "https://hacktoberfest.com/events/",
+        "Donate To Open-Source Projects": "https://hacktoberfest.com/donate/"
+    },
+
+    "social": {
+        "discord": "https://discord.gg/hacktoberfest",
+        "twitter": "https://twitter.com/hacktoberfest",
+        "reddit": "https://reddit.com/r/hacktoberfest"
+    }
+}
