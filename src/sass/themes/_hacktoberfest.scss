@@ -1,7 +1,6 @@
 @use '../abstracts' as *;
 
 $color-primary: #e5e1e6;
-$background-gradient: linear-gradient(90deg, rgb(255, 215, 77) 0%, rgb(64, 221, 255) 30%, rgb(124, 127, 255) 85%) 0% 0% / 200% 100%;
 
 body {
     color: var(--color-dark-primary);
@@ -66,8 +65,11 @@ body {
         clip-path: polygon(20px 0px, 100% 0px, 100% 72%, calc(100% - 20px) 100%, 0px 100%, 0px 20px);
         background: linear-gradient(90deg, rgb(255, 215, 77) 0%, rgb(64, 221, 255) 30%, rgb(124, 127, 255) 85%) 0% 0% / 200% 100%;
         filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px) drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
-
         animation: bg-animation 2.5s infinite alternate;
+        
+        @include respond(phone) {
+            animation: none;
+        }
     }    
 }
 
